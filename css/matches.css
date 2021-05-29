@@ -1,0 +1,69 @@
+body{
+    word-spacing: 0px;
+    width: 100%;
+    background-color: darkgrey;
+}
+
+.flex-between {
+    display: flex;
+}
+.navbar-brand{
+    color: green;
+    margin-left: 0.2%;
+    width: 120px;
+}
+
+.table{
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 16px;
+    width: 40%;
+    background-color: white;
+    }
+.titlematchtable{
+    font-weight: 600;
+    font-size: x-large;
+    margin-left: 2px;
+    text-align: center;
+}
+h1{
+    font-weight: 600;
+    margin: 20px;
+    text-align: center;
+}
+.btn-outline-dark{
+    border-width: 2px;
+    font-weight: 600;
+}
+.d-flex{
+    border-width: 20px;
+    border-color: black;
+}
+.nav-link:hover{
+    animation-name: AnimDifuminar;
+    animation-duration: 1s;
+    animation-iteration-count: unset;
+      
+}
+@keyframes AnimDifuminar {   
+    0% {     
+      background-color: transparent; 
+      border-color: transparent;
+      border-radius: 4px;
+  
+    } 
+    100% {     
+      background-color: lightgray;   
+      color: black;
+      border-radius: 8px;
+      border-width: 1px;
+      font-weight: 550;
+      border: lightgray solid 1px;
+    } 
+  }
+  .radioFiltro{
+      margin-right: 60px;
+  }
+  .form-control{
+      margin-right: 20px;
+  }
